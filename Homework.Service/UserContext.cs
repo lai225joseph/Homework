@@ -10,7 +10,7 @@ namespace Homework.Service
 {
     public class UserContext : DbContext
     {
-        public UserContext(): base("UserContext")
+        public UserContext()
         {
             Database.SetInitializer<UserContext>(null);
             Configuration.AutoDetectChangesEnabled = true;

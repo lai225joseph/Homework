@@ -8,17 +8,24 @@ using System.Web;
 using System.Web.Mvc;
 using Homework.Domain;
 using Homework.Service;
+using Homework.Repository;
 
 namespace Homework.Web.Controllers
 {
     public class UsersController : Controller
     {
         private UserContext db = new UserContext();
+        public UserRepository userRepository;
+
+        public UsersController()
+        {
+            userRepository = new UserRepository(db);
+        }
 
         // GET: Users
         public ActionResult Index()
         {
-            return View(db.User.ToList());
+            return View(userRepository.Index());
         }
 
         // GET: Users/Details/5
@@ -52,8 +59,7 @@ namespace Homework.Web.Controllers
             if (ModelState.IsValid)
             {
                 user.UserID = Guid.NewGuid();
-                db.User.Add(user);
-                db.SaveChanges();
+                userRepository.Create(user);
                 return RedirectToAction("Index");
             }
 
@@ -84,8 +90,7 @@ namespace Homework.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                db.Entry(user).State = EntityState.Modified;
-                db.SaveChanges();
+                userRepository.Edit(user);
                 return RedirectToAction("Index");
             }
             return View(user);
@@ -111,9 +116,7 @@ namespace Homework.Web.Controllers
         [ValidateAntiForgeryToken]
         public ActionResult DeleteConfirmed(Guid id)
         {
-            User user = db.User.Find(id);
-            db.User.Remove(user);
-            db.SaveChanges();
+            userRepository.Delete(id);
             return RedirectToAction("Index");
         }
 

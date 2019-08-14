@@ -10,3 +10,5 @@ D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\E
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.csprojResolveAssemblyReference.cache
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.dll
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.Migrations.InitialCreate.resources
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.csproj.GenerateResource.Cache

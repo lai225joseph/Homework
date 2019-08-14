@@ -9,3 +9,6 @@ D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debu
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\EntityFramework.xml
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\obj\Debug\Homework.Repository.dll
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\obj\Debug\Homework.Repository.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Repository.dll.config
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\EntityFramework.SqlServer.xml
