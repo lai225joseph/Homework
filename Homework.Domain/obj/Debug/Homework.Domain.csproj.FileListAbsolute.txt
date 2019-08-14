@@ -1,0 +1,4 @@
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Domain\bin\Debug\Homework.Domain.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Domain\bin\Debug\Homework.Domain.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Domain\obj\Debug\Homework.Domain.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Domain\obj\Debug\Homework.Domain.pdb

@@ -1,0 +1,11 @@
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\obj\Debug\Homework.Repository.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Repository.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Repository.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Domain.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Service.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Domain.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\Homework.Service.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\obj\Debug\Homework.Repository.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Repository\obj\Debug\Homework.Repository.pdb

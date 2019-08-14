@@ -1,0 +1,12 @@
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\Homework.Service.dll.config
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\Homework.Service.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\Homework.Service.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\Homework.Domain.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\Homework.Domain.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Service\obj\Debug\Homework.Service.pdb
