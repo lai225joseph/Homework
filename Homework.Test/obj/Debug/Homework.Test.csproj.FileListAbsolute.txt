@@ -1,0 +1,16 @@
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Test.dll.config
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Test.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Test.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\EntityFramework.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\EntityFramework.SqlServer.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Domain.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Repository.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Service.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Domain.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Repository.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\Homework.Service.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\EntityFramework.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\bin\Debug\EntityFramework.SqlServer.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\obj\Debug\Homework.Test.csprojResolveAssemblyReference.cache
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\obj\Debug\Homework.Test.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Test\obj\Debug\Homework.Test.pdb
