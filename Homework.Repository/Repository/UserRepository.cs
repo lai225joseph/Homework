@@ -6,10 +6,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Data.Entity;
+using Homework.Repository;
 
 namespace Homework.Repository
 {
-    public class UserRepository
+    public class UserRepository : IUserRepository
     {
         private UserContext db;
 
@@ -25,6 +26,7 @@ namespace Homework.Repository
 
         public void Create(User user)
         {
+            user.UserID = Guid.NewGuid();
             db.User.Add(user);
             db.SaveChanges();
         }
@@ -40,6 +42,28 @@ namespace Homework.Repository
             User user = db.User.Find(id);
             db.User.Remove(user);
             db.SaveChanges();
+        }
+
+
+        public void Update(User instance)
+        {
+            db.Entry(instance).State = EntityState.Modified;
+            db.SaveChanges();
+        }
+
+        public User Get(Guid id)
+        {
+            return db.User.Find(id);
+        }
+
+        IQueryable<User> IRepository<User>.Index()
+        {
+            return db.User.AsQueryable();
+        }
+
+        public void Dispose()
+        {
+            db.Dispose();
         }
     }
 }

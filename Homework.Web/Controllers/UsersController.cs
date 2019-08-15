@@ -14,12 +14,11 @@ namespace Homework.Web.Controllers
 {
     public class UsersController : Controller
     {
-        private UserContext db = new UserContext();
-        public UserRepository userRepository;
+        public IUserRepository userRepository;
 
-        public UsersController()
+        public UsersController(IUserRepository userRepository)
         {
-            userRepository = new UserRepository(db);
+            this.userRepository = userRepository;
         }
 
         // GET: Users
@@ -35,7 +34,7 @@ namespace Homework.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.User.Find(id);
+            User user = userRepository.Get(id.Value);
             if (user == null)
             {
                 return HttpNotFound();
@@ -58,7 +57,6 @@ namespace Homework.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                user.UserID = Guid.NewGuid();
                 userRepository.Create(user);
                 return RedirectToAction("Index");
             }
@@ -73,7 +71,8 @@ namespace Homework.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.User.Find(id);
+            User user = userRepository.Get(id.Value);
+
             if (user == null)
             {
                 return HttpNotFound();
@@ -103,7 +102,9 @@ namespace Homework.Web.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            User user = db.User.Find(id);
+
+            User user = userRepository.Get(id.Value);
+
             if (user == null)
             {
                 return HttpNotFound();
@@ -124,7 +125,7 @@ namespace Homework.Web.Controllers
         {
             if (disposing)
             {
-                db.Dispose();
+                userRepository.Dispose();
             }
             base.Dispose(disposing);
         }

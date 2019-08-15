@@ -59,3 +59,17 @@ D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.O
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Owin.Security.MicrosoftAccount.xml
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\obj\Debug\Homework.Web.dll
 D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\obj\Debug\Homework.Web.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.ServiceLocation.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.Configuration.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\System.Net.Http.Formatting.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\System.Web.Http.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Unity.Mvc4.dll
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.ServiceLocation.pdb
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.ServiceLocation.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.Configuration.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\Microsoft.Practices.Unity.RegistrationByConvention.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\System.Net.Http.Formatting.xml
+D:\Visual Studio 2013\Homework.Application\Homework\Homework.Web\bin\System.Web.Http.xml

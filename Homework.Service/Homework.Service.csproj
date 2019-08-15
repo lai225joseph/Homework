@@ -48,6 +48,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IUserContext.cs" />
     <Compile Include="Migrations\201908141253097_InitialCreate.cs" />
     <Compile Include="Migrations\201908141253097_InitialCreate.Designer.cs">
       <DependentUpon>201908141253097_InitialCreate.cs</DependentUpon>

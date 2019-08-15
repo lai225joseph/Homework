@@ -8,7 +8,7 @@ using Homework.Domain;
 
 namespace Homework.Service
 {
-    public class UserContext : DbContext
+    public class UserContext : DbContext, IUserContext
     {
         public UserContext()
         {
