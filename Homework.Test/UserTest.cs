@@ -2,7 +2,6 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using Homework.Domain;
 using Homework.Service;
-using Homework.Repository;
 
 namespace Homework.Test
 {
